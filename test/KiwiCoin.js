@@ -11,7 +11,7 @@ contract('KiwiCoin', function(accounts) {
       assert.equal(name, 'Kiwi Coin', 'has the correct name');
       return tokenInstance.symbol();
     }).then(function(symbol) {
-      assert.equal(symbol, 'DAPP', 'has the correct symbol');
+      assert.equal(symbol, 'Kiwi Coin', 'has the correct symbol');
       return tokenInstance.standard();
     }).then(function(standard) {
       assert.equal(standard, 'Kiwi Coin v1.0', 'has the correct standard');
