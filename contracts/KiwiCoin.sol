@@ -3,7 +3,7 @@ pragma solidity ^0.8.1;
 
 contract KiwiCoin {
     string  public name = "Kiwi Coin";
-    string  public symbol = "DAPP";
+    string  public symbol = "Kiwi";
     string  public standard = "Kiwi Coin v1.0";
     uint256 public totalSupply;
 
