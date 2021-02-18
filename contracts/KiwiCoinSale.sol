@@ -22,7 +22,7 @@ contract KiwiCoinSale {
 
     function buyTokens(uint256 _numberOfTokens) public payable {
         require(msg.value == multiply(_numberOfTokens, tokenPrice));
-        require(tokenContract.balanceOf(this) >= _numberOfTokens);
+        require(tokenContract.balanceOf(address(this)) >= _numberOfTokens);
         require(tokenContract.transfer(msg.sender, _numberOfTokens));
 
         tokensSold += _numberOfTokens;
@@ -32,7 +32,7 @@ contract KiwiCoinSale {
 
     function endSale() public {
         require(msg.sender == admin);
-        require(condition);(tokenContract.transfer(admin, tokenContract.balanceOf(address(this)));
+        tokenContract.transfer(admin, tokenContract.balanceOf(address(this)));
 
         // UPDATE: Let's not destroy the contract here
         // Just transfer the balance to the admin
