@@ -35,6 +35,8 @@ module.exports = {
    * $ truffle test --network <network-name>
    */
 
+  // See <http://truffleframework.com/docs/advanced/configuration>
+  // to customize your Truffle configuration!
   networks: {
     // Useful for testing. The `development` name is special - truffle uses it by default
     // if it's defined here and no other network is specified at the command line.
@@ -90,7 +92,7 @@ module.exports = {
       //    runs: 200
       //  },
       //  evmVersion: "byzantium"
-      // }
+      //
     }
   }
 };

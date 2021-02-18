@@ -1,0 +1,25 @@
+{
+    "name": "Kiwi-Coin-sale",
+    "version": "1.0.0",
+    "description": "Kiwi Coin Sale ICO",
+    "main": "truffle.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "dev": "lite-server"
+    },
+    "author": "Julian",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.3.0"
+    },
+    "dependencies": {
+        "@truffle/contract": "^4.3.7",
+        "package": "^1.0.1",
+        "package-lock": "^1.0.5",
+        "settings": "^0.1.1",
+        "truffle": "^5.1.66",
+        "truffle-config": "^1.1.20"
+    }
+}
