@@ -1,0 +1,7 @@
+{
+    "projectName": "Token_sale",
+    "namespace": "Token_sale.Contracts",
+    "lang": 0,
+    "autoCodeGen": true,
+    "projectPath": "../"
+}
